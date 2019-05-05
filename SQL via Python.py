@@ -8,7 +8,6 @@ Created on Wed Apr 10 17:43:17 2019
 import cx_Oracle
 
 import datetime 
-d = datetime.datetime
 
 dbConn = cx_Oracle.connect("AdiletBU/Zaq12wsx@localhost/xe")
 cur = dbConn.cursor()  
